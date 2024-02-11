@@ -33,12 +33,13 @@ To run the text editor, execute the compiled binary:
 
 Once the editor is running, you can use the following commands:
 
-- `u`: Undo the most recent change.
-- `r`: Redo the most recently undone change.
-- `d`: Display the current content of the text.
-- `i`: Insert text at the current cursor position.
-- `del`: Delete text at the current cursor position.
-- `m`: Move the cursor to a specified position.
+- `WRITE`: Write the characters to the text.
+- `UNDO`: Undo the most recent change in write.
+- `REDO`: Redo the most recently undone change in write.
+- `READ`: Display the current content of the text.
+- `INSERT`: Insert text at the current cursor position.
+- `DELETE`: Delete text at the current cursor position.
+- `MOVE`: Move the cursor to a specified position.
 
 ## Contributing
 
