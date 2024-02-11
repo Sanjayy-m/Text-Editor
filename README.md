@@ -4,8 +4,8 @@ This is a simple text editor implemented in C, utilizing two linked lists as a s
 
 ## Features
 
-- **Undo**: Reverts the most recent change made to the text.
-- **Redo**: Reapplies the most recent undone change.
+- **Undo**: Reverts the most recent write made to the text.
+- **Redo**: Reapplies the most recent undone change in write.
 - **Read**: Displays the current content of the text.
 - **Insert**: Inserts text at the current cursor position.
 - **Delete**: Deletes text at the current cursor position.
