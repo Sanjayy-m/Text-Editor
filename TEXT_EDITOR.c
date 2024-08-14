@@ -258,7 +258,7 @@ void QUERY(char * q) {
     }
 }
 int main() {
-    char q[100];
+    char q[100000];
     int ch;
     char filename[100]; 
     printf("\n---------------------Welcome to TEXT EDITOR---------------------\n\n\n");
